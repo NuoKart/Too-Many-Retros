@@ -4,7 +4,7 @@
 		<section name="2ManyRetros">
 			<option name="Pack">
 				<choice name="Enabled">
-					<patch id="2ManyRetros105LoadPack"/>
+					<patch id="2ManyRetros219LoadPack"/>
 				</choice>
 			</option>
 			<option name="My Stuff">
@@ -12,12 +12,12 @@
 					<patch id="CTGPLoad"/>
 				</choice>
 				<choice name="From Pack">
-					<patch id="2ManyRetros105Load"/>
+					<patch id="2ManyRetros219Load"/>
 				</choice>
 			</option>
 		</section>
 	</options>	
-	<patch id="2ManyRetros105LoadPack">
+	<patch id="2ManyRetros219LoadPack">
 		<memory offset="0x80242698" value="4BDC1968" original="4e800020" /> <!--RMCP DOL-->
 		<memory offset="0x8000A3F4" value="4bff9c0c" original="4e800020" /> <!--RMCP REL-->
 		<memory offset="0x802417dc" value="4BDC2824" original="4e800020" /> <!--RMCE DOL-->
@@ -39,7 +39,7 @@
 		<file external="/ctgpr/My Stuff/offline_bg.brstm" disc="/sound/strm/offline_bg.brstm" create="true" />
 		<file external="/ctgpr/My Stuff/wifi_bg.brstm" disc="/sound/strm/wifi_bg.brstm" create="true" />
 	</patch>	
-	<patch id="2ManyRetros105Load">
+	<patch id="2ManyRetros219Load">
 		<folder external="/2ManyRetros/My Stuff" />
 		<file external="/2ManyRetros/My Stuff/title_bg.brstm" disc="/sound/strm/title_bg.brstm" create="true" />
 		<file external="/2ManyRetros/My Stuff/offline_bg.brstm" disc="/sound/strm/offline_bg.brstm" create="true" />
